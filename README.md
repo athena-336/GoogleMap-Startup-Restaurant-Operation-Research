@@ -1,14 +1,34 @@
-Restaurant Opening Guide: Data-Driven Strategy in BengaluruA data analytics project that explores 10,000+ restaurant records in Bengaluru to provide a strategic roadmap for entrepreneurs, focusing on location selection, service optimization, and revenue estimation to achieve a 4.0+ rating.國立政治大學 數據分析課程 · NCCU DA Final Presentation · Group 6ObjectiveThrough competitor analysis, this project aims to help new restaurant owners minimize risk and maximize the probability of achieving a 4.0+ rating within the first six months of operation.PipelineRaw Kaggle Data (10,000+ Records)
-    ↓
-Data Preprocessing (Handling missing rates & approx_cost)
-    ↓
-Regional Market Profiling (Focus on Malleshawram)
-    ↓
-Feature Engineering (Rest Type, Cuisines, Book Table service)
-    ↓
-Customer Sentiment Analysis (Word Cloud via reviews_list)
-    ↓
-Financial Modeling (Revenue vs. Cost estimation)
-    ↓
-Strategic Opening Guide
-Tech StackStepTechnologyData CleaningPython, Pandas, NumPyVisualizationMatplotlib, Seaborn, WordCloudGeographic AnalysisBoxplot analysis for regional rating distributionMetrics trackedARR, approx_cost, Ratings (rate), VotesAnalysis LogicSegmentation by Rest Type, Location, and ServicesStrategic GuideOptimal Positioning: Recommended a hybrid model of Casual Dining x Cafe.Cuisine Focus: North Indian remains the dominant local preference.Value-Added Services: Implementing "Book Table" is verified to increase average revenue by approximately $73/person and significantly boost ratings.Success Pillars: 1. Food quality and vegetarian options.2. Professional and polite staff.3. Ambiance and environment.4. Accessibility and transport convenience.Key FindingsRegional SelectionAnalysis of rating distributions across different areas (via boxplots) identified high-potential clusters for new entries.Service ImpactProviding online ordering and table booking correlates with a ~0.4 increase in average ratings, providing a clear competitive edge.Revenue ThresholdFor a Fine Dining & North Indian setup, the target revenue should be positioned above $387/person to ensure sustainability.TeamMemberRole黃筠茜 (Athena)Strategic Analysis / Presentation呂宜珊Data Analysis張嘉妤Data Analysis劉語安Data Analysis許庭瑀Data Analysis中文簡介本專案為政大數據分析課程之 Kaggle 專案分析。透過分析 Bengaluru 地區超過一萬間餐廳的數據，我們為創業者制定了一套科學化的開店指南。流程包含數據清洗（處理 rate 與 cost 缺失值）、Malleshawram 地區深度剖析、文字雲情緒分析，以及針對「訂位服務」與「餐點類型」對營收與評分的影響分析。最終產出包含選址、菜系、服務功能與獲利門檻的綜合性建議。
+# 餐廳開店指南 | Restaurant Opening Guide: Data Analytics Project
+
+## 專案概述 | Project Overview
+本專案為政治大學數據分析課程（NCCU DA）的 Kaggle 專案。透過分析 Bengaluru 地區超過 10,000 間餐廳的資料，我們旨在為創業者提供一套科學的開店指南，目標是在六個月內協助新餐廳達成評分 4.0 以上的目標。
+
+This project is a Kaggle data analytics study for the NCCU DA course. By analyzing data from 10,000+ restaurants in Bengaluru, we provide strategic insights for entrepreneurs to achieve a rating of 4.0+ within six months.
+
+## 核心分析 | Key Analyses
+我們針對 **Malleshawram** 地區進行了五大維度的深入分析：
+* **餐廳定位 (Rest Type):** 推薦 Casual Dining 與 Cafe 的複合式經營。
+* **菜色口味 (Cuisines):** 以 North Indian 為主打菜色。
+* **額外服務 (Extra Services):** 驗證發現「訂位服務 (Book Table)」對提升評分與收益有顯著幫助。
+* **顧客評論 (Customer Sentiment):** 利用文字雲分析，發現顧客最在乎服務 (Staff)、餐點 (Meal) 與環境 (Ambience)。
+* **營收估算 (Revenue Estimation):** 透過 `approx_cost` 建立定價模型，預估獲利門檻。
+
+We conducted in-depth analysis on the **Malleshawram** area across five dimensions:
+* **Rest Type:** Recommended a hybrid of Casual Dining & Cafe.
+* **Cuisines:** North Indian as the primary cuisine.
+* **Extra Services:** Confirmed that "Book Table" service significantly boosts ratings and revenue.
+* **Customer Sentiment:** Word cloud analysis shows Staff, Meal, and Ambience are top priorities.
+* **Revenue Estimation:** Built a pricing model using `approx_cost` to estimate profit thresholds.
+
+## 技術棧 | Tech Stack
+* **Tool:** Python (for data cleaning and analysis)
+* **Data Processing:** Missing value handling, field splitting, and text cleaning.
+* **Visualization:** Word Cloud (文字雲), Box plots (盒狀圖), Distribution plots.
+
+## 主要發現 | Key Findings
+1.  [cite_start]**服務至上:** 員工專業度與態度是高評分的關鍵 [cite: 6, 11]。
+2.  [cite_start]**訂位優勢:** 提供訂位服務平均可提升評分約 0.4 分，增加收益約 $73/人 [cite: 9, 27]。
+3.  [cite_start]**環境與地點:** 交通便利性（鄰近地鐵、商場）與素食選項是吸引顧客的重要因素 [cite: 11, 15]。
+
+## 團隊成員 | Team Members
+* [cite_start]呂宜珊、張嘉妤、黃筠茜、劉語安、許庭瑀 [cite: 1]
