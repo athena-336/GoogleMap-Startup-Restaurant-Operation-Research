@@ -1,7 +1,7 @@
 # 餐廳開店指南 | Restaurant Opening Guide: Data Analytics Project
 
 ## 專案概述 | Project Overview
-本專案為政治大學數據分析課程（NCCU DA）的 Kaggle 專案。透過分析 Bengaluru 地區超過 10,000 間餐廳的資料，我們旨在為創業者提供一套科學的開店指南，目標是在六個月內協助新餐廳達成評分 4.0 以上的目標。
+本專案為政治大學數據分析課程（NCCU DA）的 Kaggle 專案。透過分析 Bengaluru 地區超過 10,000 間餐廳的資料，進行選址分析、顧客情緒分析與營收預估, 我們旨在為創業者提供一套科學的開店指南，目標是在六個月內協助新餐廳達成評分 4.0 以上的目標, 提升新創餐廳的成功率。
 
 This project is a Kaggle data analytics study for the NCCU DA course. By analyzing data from 10,000+ restaurants in Bengaluru, we provide strategic insights for entrepreneurs to achieve a rating of 4.0+ within six months.
 
